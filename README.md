@@ -13,7 +13,7 @@
 - [Data Analysis](https://github.com/jiang54/Customer-Retention-Analysis#Data-Analysis)
 - [Data Visualization](https://github.com/jiang54/Customer-Retention-Analysis#Data-Visualization)
 - [Insights](https://github.com/jiang54/Customer-Retention-Analysis#Insights)
-- [Shareable link](https://github.com/jiang54/Customer-Retention-Analysis#Virtual-Case-Experience-Link)
+- [Virtual Case Experience Link](https://github.com/jiang54/Customer-Retention-Analysis#Virtual-Case-Experience-Link)
 
 
 ---
