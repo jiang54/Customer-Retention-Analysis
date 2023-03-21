@@ -85,13 +85,14 @@ Each of the columns in the table were validated to have the correct data type
 Column `Service Year` is added 
 `Service Year = SWITCH(TRUE(),[tenure]<=12,"<=1 year",[tenure]<=24,"<=2 years",[tenure]<=36,"<=3 years",[tenure]<=48,"<=4 years",">4 years")`
 
-#Data Modeling
+# Data Modeling
 
 A single table in Power BI covers most of the information and does not require any modeling.
 
 ![image](https://user-images.githubusercontent.com/24377958/226606789-bf9eb5d5-dda9-41ff-af1c-0542dff10b19.png)
 
-# Data Analysis (Add Necessary Measures)
+# Data Analysis
+Add Necessary Measures
 ![image](https://user-images.githubusercontent.com/24377958/226606933-620fe1e0-1316-4ce5-b83c-98de8288074d.png)
 
 `% of Citizen Yes = DIVIDE(CALCULATE(COUNTROWS('01 Churn-Dataset'), '01 Churn-Dataset'[SeniorCitizen] = 1), COUNTROWS('01 Churn-Dataset'))`
