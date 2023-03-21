@@ -10,11 +10,10 @@
 - [Data Sourcing](https://github.com/jiang54/Customer-Retention-Analysis#Data-Sourcing)
 - [Data Preparation](https://github.com/jiang54/Customer-Retention-Analysis#Data-Preparation)
 - [Data Modeling](https://github.com/jiang54/Customer-Retention-Analysis#Data-Modeling)
-- [Data Visualization](https://github.com/jiang54/Customer-Retention-Analysis#Data-Visualization)
 - [Data Analysis](https://github.com/jiang54/Customer-Retention-Analysis#Data-Analysis)
+- [Data Visualization](https://github.com/jiang54/Customer-Retention-Analysis#Data-Visualization)
 - [Insights](https://github.com/jiang54/Customer-Retention-Analysis#Insights)
-- [Recommendation](https://github.com/jiang54/Customer-Retention-Analysis#Recommendation)
-- [Shareable link](https://github.com/jiang54/Customer-Retention-Analysis#Shareable-Link)
+- [Shareable link](https://github.com/jiang54/Customer-Retention-Analysis#Virtual-Case-Experience-Link)
 
 
 ---
@@ -93,6 +92,7 @@ A single table in Power BI covers most of the information and does not require a
 
 # Data Analysis
 Add Necessary Measures
+
 ![image](https://user-images.githubusercontent.com/24377958/226606933-620fe1e0-1316-4ce5-b83c-98de8288074d.png)
 
 `% of Citizen Yes = DIVIDE(CALCULATE(COUNTROWS('01 Churn-Dataset'), '01 Churn-Dataset'[SeniorCitizen] = 1), COUNTROWS('01 Churn-Dataset'))`
